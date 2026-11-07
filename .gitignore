@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+# Contiene las dependencias locales instaladas por npm; Riesgos e inconvenientes: Peso excesivo, conflictos de entorno y redundancia.
+dist
+# Contiene archivos con el codigo listo para ser desplegado (se considera "codigo generado" y no codigo fuente); Riesgos e inconvenientes: Conflictos de fusion,
+# ensucia el historial de cambios (commits), codigo inconsistente (carpeta 'dist' con distinto codigo al codigo fuente)
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
